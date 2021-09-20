@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Taller 7</title>
 </head>
 <body>
-  <h1>Dapartamentos y Ciudades de Colombia</h1>
+  
+  <div id="formulario" style="margin: 0 auto" class="col-sm-6 bg-white">
+    <h2>Formulario registro de usuarios</h2>
+    <br>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Nombres" aria-label="Username">
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Apellidos" aria-label="Username">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">@</span>
+      <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+      <input type="date" class="form-control" placeholder="Fecha de nacimiento" aria-label="Username">
+    </div>
+
 <form id="form">
-	<select id="departamentos">
+	<select class="form-select" id="departamentos">
     <option value="0">Seleccione el departamento</option>
     <option value="Amazonas">Amazonas</option>
     <option value="Antioquia">Antioquia</option>
@@ -48,43 +65,43 @@
     <option value="Vaupes">Vaupes</option>
     <option value="Vichada">Vichada</option>
   </select> 
-</form> 
+</form> <br>
 <form id="form1">
-	<select id="ciudades" style="display: none;"></select>
-  <select id="ciudades1" style="display: none;"></select>
-  <select id="ciudades2" style="display: none;"></select>
-  <select id="ciudades3" style="display: none;"></select>
-  <select id="ciudades4" style="display: none;"></select>
-  <select id="ciudades5" style="display: none;"></select>
-  <select id="ciudades6" style="display: none;"></select>
-  <select id="ciudades7" style="display: none;"></select>
-  <select id="ciudadeS8" style="display: none;"></select>
-  <select id="ciudades9" style="display: none;"></select>
-  <select id="ciudades10" style="display: none;"></select>
-  <select id="ciudades11" style="display: none;"></select>
-  <select id="ciudades12" style="display: none;"></select>
-  <select id="ciudades13" style="display: none;"></select>
-  <select id="ciudades14" style="display: none;"></select>
-  <select id="ciudades15" style="display: none;"></select>
-  <select id="ciudades16" style="display: none;"></select>
-  <select id="ciudades17" style="display: none;"></select>
-  <select id="ciudades18" style="display: none;"></select>
-  <select id="ciudades19" style="display: none;"></select>
-  <select id="ciudades20" style="display: none;"></select>
-  <select id="ciudades21" style="display: none;"></select>
-  <select id="ciudades22" style="display: none;"></select>
-  <select id="ciudades23" style="display: none;"></select>
-  <select id="ciudades24" style="display: none;"></select>
-  <select id="ciudades25" style="display: none;"></select>
-  <select id="ciudades26" style="display: none;"></select>
-  <select id="ciudades27" style="display: none;"></select>
-  <select id="ciudades28" style="display: none;"></select>
-  <select id="ciudades29" style="display: none;"></select>
-  <select id="ciudades30" style="display: none;"></select>
-  <select id="ciudades31" style="display: none;"></select>
+	<select class="form-select" id="ciudades" style="display: none;"></select>
+  <select class="form-select" id="ciudades1" style="display: none;"></select>
+  <select class="form-select" id="ciudades2" style="display: none;"></select>
+  <select class="form-select" id="ciudades3" style="display: none;"></select>
+  <select class="form-select" id="ciudades4" style="display: none;"></select>
+  <select class="form-select" id="ciudades5" style="display: none;"></select>
+  <select class="form-select" id="ciudades6" style="display: none;"></select>
+  <select class="form-select" id="ciudades7" style="display: none;"></select>
+  <select class="form-select" id="ciudadeS8" style="display: none;"></select>
+  <select class="form-select" id="ciudades9" style="display: none;"></select>
+  <select class="form-select" id="ciudades10" style="display: none;"></select>
+  <select class="form-select" id="ciudades11" style="display: none;"></select>
+  <select class="form-select" id="ciudades12" style="display: none;"></select>
+  <select class="form-select" id="ciudades13" style="display: none;"></select>
+  <select class="form-select" id="ciudades14" style="display: none;"></select>
+  <select class="form-select" id="ciudades15" style="display: none;"></select>
+  <select class="form-select" id="ciudades16" style="display: none;"></select>
+  <select class="form-select" id="ciudades17" style="display: none;"></select>
+  <select class="form-select" id="ciudades18" style="display: none;"></select>
+  <select class="form-select" id="ciudades19" style="display: none;"></select>
+  <select class="form-select" id="ciudades20" style="display: none;"></select>
+  <select class="form-select" id="ciudades21" style="display: none;"></select>
+  <select class="form-select" id="ciudades22" style="display: none;"></select>
+  <select class="form-select" id="ciudades23" style="display: none;"></select>
+  <select class="form-select" id="ciudades24" style="display: none;"></select>
+  <select class="form-select" id="ciudades25" style="display: none;"></select>
+  <select class="form-select" id="ciudades26" style="display: none;"></select>
+  <select class="form-select" id="ciudades27" style="display: none;"></select>
+  <select class="form-select" id="ciudades28" style="display: none;"></select>
+  <select class="form-select" id="ciudades29" style="display: none;"></select>
+  <select class="form-select" id="ciudades30" style="display: none;"></select>
+  <select class="form-select" id="ciudades31" style="display: none;"></select>
 
 </form> 
-   <p id="resultado"></p>
+</div>
   
   <script src="script.js"></script>
 </body>
