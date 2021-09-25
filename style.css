@@ -1,0 +1,19 @@
+#formulario{
+    width: 500px;
+    background: #3a8aaf;
+    padding: 30px;
+    margin: auto;
+    margin-top: px;
+    font-family: Helvetica;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+h2{
+    background: #378ea3;
+    
+}
+
+body{
+    margin-top: 80px;
+}
