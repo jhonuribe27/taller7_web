@@ -17,3 +17,10 @@ h2{
 body{
     margin-top: 80px;
 }
+i{
+    margin-top: 12px;
+    color: rgb(143, 10, 10)
+}
+input{
+    margin-right: 10px;
+}
